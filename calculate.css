@@ -1,0 +1,50 @@
+#outer{
+    width: 448px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #696969;
+}
+#bottom div:hover{
+    background-color: red;
+}
+
+#top{
+    height: 50px;
+}
+#top span{
+    font-size: 30px;
+}
+#middle{
+    height: 50px;
+    background-color: white;
+    border: 1px solid red;
+    text-align: right;
+    line-height: 50px;
+    font-size: 30px;
+}
+#top {
+    width: 100%;
+
+}
+#bottom{
+    height: 500px;
+}
+#bottom div{
+    width: 110px;
+    height: 98px;
+    background-color: aquamarine;
+    float: left;
+    text-align: center;
+    border: 1px solid #696969;
+    line-height: 98px;
+}
+#red{
+    color: red;
+
+}
+#yellow{
+    color: yellow;
+}
+#blue{
+    color: blue;
+}

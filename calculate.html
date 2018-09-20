@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calculate</title>
+
+    <link href="calculate.css" rel="stylesheet" type="text/css">
+    <script src="calculate.js"></script>
+   
+    <div id="outer">
+        <div  id="top">
+            <span id="red">●</span>
+            <span id="blue">●</span>
+            <span id="yellow">●</span>
+        </div>
+        <div id="middle"></div>
+        <div id="bottom">
+            
+                <div onclick=delall()>AC</div>
+                <div onclick="clickbutton('+/-')">+/-</div>
+                <div onclick="clickbutton('%')">%</div>
+                <div onclick="clickbutton('/')">÷</div>
+            
+            
+                <div onclick="clickbutton('7')">7</div>
+                <div onclick="clickbutton('8')">8</div>
+                <div onclick="clickbutton('9')">9</div>
+                <div onclick="clickbutton('*')">×</div>
+            
+            
+                <div onclick="clickbutton('4')">4</div>
+                <div onclick="clickbutton('5')">5</div>
+                <div onclick="clickbutton('6')">6</div>
+                <div onclick="clickbutton('-')">-</div>
+            
+            
+                <div onclick="clickbutton('1')">1</div>
+                <div onclick="clickbutton('2')">2</div>
+                <div onclick="clickbutton('3')">3</div>
+                <div onclick="clickbutton('+')">+</div>
+            
+            
+                <div onclick="clickbutton('0')">0</div>
+                <div onclick=back()>DEL</div>
+                <div onclick="clickbutton('.')">.</div>
+                <div onclick=calc()>=</div>
+            
+        </div>
+    </div>
+</body>
+</html>
